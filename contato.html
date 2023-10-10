@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./styles/contato.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h2> Jet Photos - Brasil.</h2>
+        </div>
+        <ul>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="sobre.html"><li>Sobre</li></a>
+            <a href="imagens.html"><li>Imagens</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+        </ul>
+    </header>
+    <main id="container">
+        <form id="login_form">
+            <!-- FORM HEADER -->
+            <div id="form_header">
+                <h1>Olá</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <!-- SOCIAL MEDIA LINKS -->
+            <div id="social_media">
+                <!-- FACEBOOK Jet Photos-->
+                <a href="https://www.facebook.com/jetphotos.net">
+                    <img src="./img/facebook.png" alt="facebook">
+                </a>
+
+                <!-- GOOGLE -->
+    
+
+                <!-- GITHUB -->
+                <a href="#">
+                    <img src="./img/github.png" alt="github">
+                </a>
+                <!--Flight Radar-->
+                <a href="https://www.flightradar24.com/">
+                    <img src="./img/flightradar.png" alt="flightradar">
+                </a>
+                <!--JetPhotos-->
+                <a href="https://www.jetphotos.com/">
+                    <img src="./img/Jetphoto.png" alt="JetPhotos">
+                </a>
+
+
+            </div>
+
+            <!-- INPUTS -->
+            <div id="inputs">
+                <!-- NAME -->
+                <div class="input-box">
+                    <label for="name">
+                        Nome:
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email">
+                        E-mail:
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="senha" id="senha" name="senha">
+                        </div>
+                    </label>
+                    
+                    <!--  PASSWORD -->
+                    <div id="forgot_password">
+                        <a href="#">
+                            Você esqueceu sua senha:?
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                    Login
+            </button>
+        </form>
+    </main>    
+    <script src="./js/script.js"></script>
+    
+    <!--Rodapé-->
+    <footer>
+        <span> Copyright &copy; | Lucas Anjos dos Reis |</span> 
+        <span> Copyright &copy; | Mogi das Cruzes -SP  | </span>
+        <span> Copyright &copy; | Brazil | </span>
+        <span> Copyright &copy; | Data 18/09/2023. </span>
+    </footer>       
+ </body>
+ </html>   
